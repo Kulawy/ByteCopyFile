@@ -45,7 +45,7 @@ public class FileManager {
                 if ( newFile.createNewFile() ) {
                     return true;
                 }else{
-                    System.out.println(" erron on CREATE_NEW_FILE");
+                    //System.out.println(" erron on CREATE_NEW_FILE");
                     return false;
                 }
 
@@ -55,7 +55,7 @@ public class FileManager {
                 return false;
             }
         }catch(NullPointerException e){
-            System.out.println("error on CREATE_NEW_FILE baseFile is missing");
+            //System.out.println("error on CREATE_NEW_FILE baseFile is missing");
             return false;
         }
     }
